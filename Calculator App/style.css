@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.result {
+  height: 50px;
+  width: 50%;
+  outline: none;
+  background-color: black;
+  font-size: 20px;
+  border: none;
+  text-align: right;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: none;
+}
+
+td input[type="button"] {
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 3px;
+}
+.symb {
+  background-color: darkorange;
+  color: white;
+}
+.gray {
+  background-color: gray;
+  color: black;
+}
+input {
+  background-color: rgb(37, 34, 34);
+  color: rgb(255, 255, 255);
+}
